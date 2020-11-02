@@ -32,7 +32,7 @@ public class AliyunSendSmsUtils {
      */
     public static String sendSms(String phone,int randomCode){
         /*配置发送短信基础信心*/
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4G7maL9SqXRzMRqDUebr", "c2eQXoSPV6kUAKDQ5KikP9LhwdPTon");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "", "");
         IAcsClient client = new DefaultAcsClient(profile);
 
         /*短信请求对象*/
